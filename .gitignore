@@ -1,0 +1,107 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== Виртуальные окружения =====
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ===== Тесты и покрытие =====
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+coverage/
+
+# ===== Линтеры / типизация / форматтеры =====
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+.pylint.d/
+
+# ===== Jupyter / IPython =====
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ===== Сборка / упаковка =====
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+.installed.cfg
+Pipfile.lock
+poetry.lock
+
+# ===== Django =====
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+
+# ===== Flask =====
+instance/
+.webassets-cache
+
+# ===== Scrapy =====
+.scrapy
+
+# ===== PyInstaller =====
+*.manifest
+*.spec
+
+# ===== Секреты и окружение =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== IDE / редакторы =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== ОС =====
+.DS_Store
+Thumbs.db
